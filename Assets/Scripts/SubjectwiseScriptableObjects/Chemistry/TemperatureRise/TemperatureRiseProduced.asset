@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7a3ace0c79fe0040bd804d188b6a8b6, type: 3}
+  m_Name: TemperatureRiseProduced
+  m_EditorClassIdentifier: 
+  topicName: 'Investigate the temperature rise produced in a known mass of water
+    by the combustion of the alcohols ethanol, propanol, butanol and pentanol '
+  topicDescription: 'Investigate the temperature rise produced in a known mass of
+    water by the combustion of the alcohols ethanol, propanol, butanol and pentanol '
+  steps:
+  - {fileID: 11400000, guid: 109db03460c898442a405096ffa0089d, type: 2}
+  - {fileID: 11400000, guid: 05deed5eb3e23a146873e1e22e1d5944, type: 2}
+  - {fileID: 11400000, guid: 783706501129ae54687a54d067d10146, type: 2}
+  - {fileID: 11400000, guid: 9588616531e241d4cb93b83baee38680, type: 2}
+  - {fileID: 11400000, guid: a055c24a9fe59a04eb1e2899adcbd104, type: 2}
+  - {fileID: 11400000, guid: 1bc69016cd45f834486781a20ad7fa78, type: 2}
+  - {fileID: 11400000, guid: f63d2ec98d6901c4ea283d34db65e2e1, type: 2}
+  - {fileID: 11400000, guid: ae80b10ab2367444591e22805645c112, type: 2}
+  - {fileID: 11400000, guid: 7d615380996bf014cbf337caa10b5c98, type: 2}
+  - {fileID: 11400000, guid: f3ea29cce3e91d04eba978738b12b96d, type: 2}
+  - {fileID: 11400000, guid: 3ec51974fc9e84342805c681e69a84dd, type: 2}
+  topicImage: {fileID: 0}
+  isCompleted: 0

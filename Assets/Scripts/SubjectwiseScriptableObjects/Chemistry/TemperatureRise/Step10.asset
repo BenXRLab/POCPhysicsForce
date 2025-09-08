@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b6da721c39c875439b8147b3faf3c76, type: 3}
+  m_Name: Step10
+  m_EditorClassIdentifier: 
+  stepName: Step 10
+  stepDetails: Add 100ml of cold water to the hot conical flask to reduce hazard
+    during handling. Pour out water and rinse both outside and inside of the flask
+    with cold water.
+  isCompleted: 0
+  estimatedDuration: 0
+  stepType: 0
+  prerequisiteSteps: []
