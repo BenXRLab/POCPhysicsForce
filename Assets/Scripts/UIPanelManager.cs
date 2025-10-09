@@ -4,8 +4,8 @@ public class UIPanelManager : MonoBehaviour
 {
     public GameObject Welcome_Screen;
 
-    public void DestroyGameObject()
+    public void DestroyTheGameObject()
     {
-        DestroyGameObject(Welcome_Screen);
+        Destroy(Welcome_Screen);
     }
 }

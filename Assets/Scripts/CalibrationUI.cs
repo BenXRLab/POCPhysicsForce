@@ -5,10 +5,11 @@ using TMPro;
 
 public class CalibrationUI : MonoBehaviour
 {
-    public TextMeshProGUI TextField;
+    public TextMeshProUGUI TextField;
 
     public void ChangeText(string newText)
     {
         TextField.text = newText;
     }
+    
 }
