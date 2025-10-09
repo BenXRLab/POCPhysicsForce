@@ -1,21 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class UIPanelManager : MonoBehaviour
 {
-    public GameObject canvas;
-    // Start is called before the first frame update
-   /* public void ShowCanvas()
-    {
-         //Activates the GameObject
-        canvas.SetActive(true);
-    }*/
+    public GameObject Welcome_Screen;
 
-    // Update is called once per frame
-    public void HideCanvas()
+    public void DestroyGameObject()
     {
-        // Deativates the GameObject
-        canvas.SetActive(false);
+        DestroyGameObject(Welcome_Screen);
     }
 }
