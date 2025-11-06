@@ -1707,7 +1707,7 @@ GameObject:
   - component: {fileID: 471063784}
   - component: {fileID: 471063783}
   - component: {fileID: 471063782}
-  - component: {fileID: 471063785}
+  - component: {fileID: 471063786}
   m_Layer: 0
   m_Name: Start_TrialButton
   m_TagString: Untagged
@@ -1779,16 +1779,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 471063785}
-        m_TargetAssemblyTypeName: Trial_Text_Change, Assembly-CSharp
-        m_MethodName: ChangeText
-        m_Mode: 5
+      - m_Target: {fileID: 471063786}
+        m_TargetAssemblyTypeName: Trial_Text, Assembly-CSharp
+        m_MethodName: NewText
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Trial Running...
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &471063783
@@ -1829,7 +1829,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 471063779}
   m_CullTransparentMesh: 1
---- !u!114 &471063785
+--- !u!114 &471063786
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1838,7 +1838,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 471063779}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea87cd1abaf14c942be7d02a86359f74, type: 3}
+  m_Script: {fileID: 11500000, guid: cd3abbcf7985b7f488ae56be43f16179, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   TextField: {fileID: 1788170407}
