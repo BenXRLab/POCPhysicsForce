@@ -1707,7 +1707,7 @@ GameObject:
   - component: {fileID: 471063784}
   - component: {fileID: 471063783}
   - component: {fileID: 471063782}
-  - component: {fileID: 471063786}
+  - component: {fileID: 471063787}
   m_Layer: 0
   m_Name: Start_TrialButton
   m_TagString: Untagged
@@ -1779,9 +1779,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 471063786}
-        m_TargetAssemblyTypeName: Trial_Text, Assembly-CSharp
-        m_MethodName: NewText
+      - m_Target: {fileID: 471063787}
+        m_TargetAssemblyTypeName: CalibrationUI, Assembly-CSharp
+        m_MethodName: Trial_Activate
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1829,7 +1829,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 471063779}
   m_CullTransparentMesh: 1
---- !u!114 &471063786
+--- !u!114 &471063787
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1838,10 +1838,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 471063779}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd3abbcf7985b7f488ae56be43f16179, type: 3}
+  m_Script: {fileID: 11500000, guid: 9e4e940b37c8e2f4491f7fcd017ad4ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextField: {fileID: 0}
+  TextField: {fileID: 1406462703}
 --- !u!1 &485547999
 GameObject:
   m_ObjectHideFlags: 0
@@ -6083,7 +6083,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1708019342}
   - component: {fileID: 1708019341}
-  - component: {fileID: 1708019343}
   - component: {fileID: 1708019340}
   - component: {fileID: 1708019339}
   - component: {fileID: 1708019338}
@@ -6233,19 +6232,6 @@ RectTransform:
   m_AnchoredPosition: {x: -1.4386295, y: 0.19336343}
   m_SizeDelta: {x: 0.8, y: 0.6}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1708019343
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1708019334}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e4e940b37c8e2f4491f7fcd017ad4ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TextField: {fileID: 1406462703}
 --- !u!1001 &1718949345
 PrefabInstance:
   m_ObjectHideFlags: 0
